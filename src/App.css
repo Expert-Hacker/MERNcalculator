@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* CSS START HERE */
+.main_container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+}
+.calc_container{
+  height: 64vh;
+  width: 50vw;
+  background-color:rgb(255, 250, 250) ;
+  background-color: rgb(15, 93, 236);
+
+ }
+input{
+  width: 100%;
+  height: 10vh;
+  padding-bottom: 0ch;
+font-size: 20px;
+text-align: right;
+border: 0ch;
+font-family: inherit;
+outline: none;
+/* background-color: transparent; */
+border-bottom: 2px solid gray;
+color: rgb(255, 255, 255);
+letter-spacing: 1px;
+}
+::placeholder{
+ /* color: transparent;ss */
+ color: grey;
+}
+.top_controls{
+  margin: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .col1{
+  width: calc(100vh-50px);
+} */
+.col1{
+  width: 522px;
+}
+/* @media only screen and (min-width: 981px){
+  .col{
+    background-color: rgb(145, 60, 60);
+  }
+  
+} */
+.cus_margin{
+  margin-left: 10px !important;
+}
+.cus_margin_right{
+  margin-right: 20px !important;
+}
+.cus_margin_eq{
+  margin: 5px 20px 0px 10px !important;
+}
+.btn_clr{
+  background-color: rgb(51, 46, 46) !important;
+color: white !important;
+  /* border: 1px solid rgb(180, 170, 170); */
+}
+.btn_clr:hover{
+background-color:rgb(77, 73, 73) !important; 
+}
+.btn_eq_hvr:hover{
+  background-color: rgb(60, 133, 241) !important;
+}
+.btn_op_clr:hover{
+  background-color: rgb(55, 116, 231) !important;
+}
+.btn_c:hover{
+  background-color: tomato !important;
+  color: white;
+}
+.btn_c{
+  color: white;
+  background-color: rgb(253, 111, 17) !important;
+}
+.new_bg{
+  color: white !important;
+  background-color: rgb(91, 144, 241) !important;
+}
